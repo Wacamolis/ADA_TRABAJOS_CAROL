@@ -20,7 +20,13 @@ const prompt = require("prompt-sync")({ sigint: true });
 let numeroA = parseFloat(prompt(`Ingrese el primer numero: `))
 let numeroB = parseFloat(prompt(`Ingrese un segundo numero: `))
 
-if (numeroA > numeroB) {console.log(`${numeroA} es mayor que ${numeroB}`)}
-else if (numeroA < numeroB) {console.log(`${numeroB} es mayor que ${numeroA}`)}
-else {console.log(`${numeroA} es igual que ${numeroB}`)}
+if (numeroA > numeroB) {
+    console.log(`${numeroA} es mayor que ${numeroB}`)
+}
+    else if (numeroA < numeroB) {
+    console.log(`${numeroB} es mayor que ${numeroA}`)
+}
+    else {
+    console.log(`${numeroA} es igual que ${numeroB}`)
+}
 
