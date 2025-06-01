@@ -11,7 +11,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 let numero = parseFloat(prompt(`Ingrese el radio de su circulo para calcular su area y perimetro: `))
 
 const pi = 3.14159
-let diametro = numero * 2
-let area = pi * diametro
+let perimetro = numero * 2
+let area = pi * perimetro
 
 console.log(`El perimetro de su circulo es ${perimetro} y el area es ${area}`)
