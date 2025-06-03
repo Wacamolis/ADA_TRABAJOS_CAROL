@@ -21,7 +21,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 let verdadero = true
 let texto = "String es texto"
 let numero = 2025
-let nada = undefined
+let nada = null
 
 console.log(numero - 1992)
 console.log(`En clase de sofi aprendi que ${texto}`)
