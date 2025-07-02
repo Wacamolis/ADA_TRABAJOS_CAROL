@@ -99,14 +99,6 @@ Desde cómo funciona una computadora hasta estructuras de datos y funciones en J
 
 📎 [Acceso al Drive con PDFs del curso](https://drive.google.com/drive/folders/1pNgqu9mZ3Vc340V6S-vKWQ29Md8Dc-45?usp=drive_link)
 
----
-
-## 🛠 ¿Cómo ejecutar los ejercicios?
-
-1. Instalá Node.js
-2. Instalá `prompt-sync` si no lo tenés:
-   ```bash
-   npm install prompt-sync
 
 ---
 
